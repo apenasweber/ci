@@ -1,4 +1,5 @@
 package main
+import "testing"
 
 func TestSoma(t *testing.T) {
 	if Soma(10, 10) != 20 {
